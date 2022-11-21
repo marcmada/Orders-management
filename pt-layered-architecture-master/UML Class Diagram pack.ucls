@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="false" always-add-relationships="true" generalizations="true" realizations="false" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="model" project="pt-layered-architecture-master" 
+    file="/pt-layered-architecture-master/src/main/java/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="332" y="364"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="start" project="pt-layered-architecture-master" 
+    file="/pt-layered-architecture-master/src/main/java/start" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="334" y="79"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="bll.bll.validators" project="pt-layered-architecture-master"
+    file="/pt-layered-architecture-master/src/main/java/bll/bll.validators" binary="false" corner="BOTTOM_RIGHT">
+    <position height="-1" width="-1" x="333" y="263"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="presentation" project="pt-layered-architecture-master" 
+    file="/pt-layered-architecture-master/src/main/java/presentation" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="205" y="135"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="connection" project="pt-layered-architecture-master" 
+    file="/pt-layered-architecture-master/src/main/java/connection" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="222" y="358"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="bll" project="pt-layered-architecture-master" 
+    file="/pt-layered-architecture-master/src/main/java/bll" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="334" y="189"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="dao" project="pt-layered-architecture-master" 
+    file="/pt-layered-architecture-master/src/main/java/dao" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="223" y="253"/>    
+    <display autosize="true" stereotype="false" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="8">    
+    <bendpoint x="208" y="85"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="11">    
+    <bendpoint x="516" y="294"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="448" y="280"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="false" multiplicity="true"/>
+</class-diagram>
